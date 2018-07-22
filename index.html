@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  </head>
+
+  <body>
+
+  <!--Navbar implmentation-->
+    <nav class="nav">
+      <ul class="navbar">
+        <li><img class="header-logo" src="img/logo.jpg" alt="logo"></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+      <!--Intro image-->
+      <div class="container">
+        <img class="photo" src="img/bio.jpg" alt="photo">
+        <div class="center">Hello world, I'm Kanchan!</div>
+      </div>
+
+      <article>
+
+      <!--About section-->
+        <section class="about">
+          <h2 class="heading"><a id="about">About</a></h2>
+          <p>Nice to meet y'all! I'm a second year computer science undergrad. I started coding in python 2 years ago, and fell in love with web development this year and haven't looked back since.</p>
+          <p>Currently an aspiring front end developer who is still learning the ropes! When not being a mouse potato you'll find me practicing kanji or solving thinking up plotlines for my next story.</p>
+          <p>On weekends you'll find me chilling with a glass of juice and storybook ;)</p>
+        </section>
+
+      <!--Project section-->
+        <section class="project">
+          <h2 class="heading"><a id="project">Projects</a></h2>
+          <div class="row">
+            <div class="column">
+              <a href="https://github.com/KoderJoker/Pixel-Canvas"> <img class="icon" src="img/pixel-art-maker.png" alt="Pixel art maker"></a>
+              <p class="icon-text">Pixel Art Maker</p>
+            </div>
+            <div class="column">
+              <a href="https://github.com/KoderJoker/Py-Col"><img class="icon" src="img/pycol.png" alt="Python program collection"></a>
+              <p class="icon-text">Python Program Collection</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img class="icon" src="img/boundless.jpg" alt="Boundless (game)">
+              <p class="icon-text">Boundless (Renpy game)</p>
+            </div>
+            <div class="column">
+              <img class="icon" src="img/flower.jpg" alt="Image classifier">
+              <p class="icon-text">Image classifier</p>
+            </div>
+          </div>
+        </section>
+
+        <!--Contact section-->
+        <section class="contact">
+          <h2 class="heading"><a id="contact">Contact</a></h2>
+          <form>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first-name" placeholder="First Name">
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last-name" placeholder="Last Name">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write here"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </section>
+
+      </article>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <a href="https://www.linkedin.com/in/kanchan-joshi-10010/"> <i class="fab fa-linkedin font-icon"></i></a>
+        <a href="https://github.com/KoderJoker"><i class="fab fa-github-square font-icon"></i></a>
+        <a href="https://codepen.io/KoderJoker/"> <i class="fab fa-codepen font-icon"></i></a>
+    </footer>
+
+  </body>
+
+</html>
